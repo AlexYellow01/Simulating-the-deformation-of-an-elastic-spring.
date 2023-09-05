@@ -1,0 +1,10 @@
+A LabVIEW virtual tool designed to visually simulate the behavior of an elastic spring oscillating under the influence of gravitational force. Users can specify the following parameters:
+
+Elastic constant of the spring (k).
+Mass (m) of the object suspended at the end of the spring.
+Amplitude (A) with which the spring is initially deformed before being allowed to oscillate.
+The virtual tool renders the elastic spring and a suspended object to illustrate the spring's deformation as a function of varying values for k and m. When the PLAY button is pressed, the virtual tool simulates the oscillation of the elastic spring as if it were initially deformed with amplitude A and then allowed to oscillate freely.
+
+Upon pressing the PLAY button, the spring returns to its equilibrium position, where its deformation is solely due to the gravitational force acting on the suspended object. Throughout its execution, the virtual tool graphically represents the deformation of the elastic spring over time, whether it's a constant deformation caused by gravitational force or the deformation during free oscillation after the initial deformation with amplitude A.
+
+The virtual tool will continue running until the user presses the STOP button.
